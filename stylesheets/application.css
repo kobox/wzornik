@@ -3711,7 +3711,7 @@ tbody.collapse.in {
   background: #2e2f41 url(../images/hero-01.jpg) 0 0 no-repeat;
   background-size: cover;
   text-align: center;
-  min-height: 800px;
+  min-height: 700px;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -3739,12 +3739,22 @@ text-align: left;
 .jumbotron .container {
   max-width: 1200px;
 }
+.logo {
+	
+	font-family: sans-serif;
+	font-weight: 900;
+}
+.achilles { 
+	color: #f26522;
+	}
+	
 .phone {
-  background: #fffedb;
+	color: #000;
+  background: #FFF;
   padding: 5px 0;
   text-align: right;
   margin-bottom: 30px;
-  border-bottom: solid yellow 1px;
+  border-bottom: solid #424242 1px;
 }
 .phone .container{
 
@@ -3902,7 +3912,7 @@ text-align: left;
 }
 
 .tooltip-inner {
-  max-width: 200px;
+  max-width: 200px !important;
   padding: 3px 8px;
   color: white;
   text-align: center;
@@ -6034,10 +6044,10 @@ text-align: left;
 }
 .side-nav ul.nav-side-nav > li > a {
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
-  background: #e2e2e2;
+  background: #F26522;
 }
 .side-nav ul.nav-side-nav > li > a:hover, .side-nav ul.nav-side-nav > li > a:focus {
   background: #afafaf;
